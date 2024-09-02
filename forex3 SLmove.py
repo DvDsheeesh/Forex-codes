@@ -1,3 +1,7 @@
+# this python script is made to implement an auto moving SL on your opened position 
+# it asks you for a range that the SL must be far from the closing indicator (in both buy and sell) and it moves the SL along with the moving of the indicator
+# every move toward the profit, the SL is moved with the same amount. but if it comes back the SL will stay in its place
+
 import MetaTrader5 as mt5
 import time
 import pandas as pd
