@@ -1,5 +1,6 @@
-#this python script used to read your MT5 that is opened on your device and show your opened positions on your terminals 
-#then it let you choose one of them to close it instantly
+# this python script used to read your MT5 that is opened on your device and show your opened positions on your terminals 
+# then it let you choose one of them to close it instantly
+# this script isnt designed to be used alone, it will not make any sense, its mainly made to be used in some other bigger projects like gui applications
 import MetaTrader5 as mt5
 
 mt5.initialize()
