@@ -1,3 +1,6 @@
+# When you run this python script it will ask you for symbol, type of position and lot size
+# It will open a position on your MT5 with the data you have just gave it
+# this script isnt designed to be used alone, it will not make any sense, its mainly made to be used in some other bigger projects like gui applications
 
 import MetaTrader5 as mt5
 
