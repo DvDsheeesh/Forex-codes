@@ -1,3 +1,7 @@
+# this python script is made to implement an auto moving SL on your opened position 
+# it asks you to enter the number of wanted TPs and asks you to enter them manually in the terminals so it can move the SL along with indicator
+# every tp is reached, the SL is moved to the past TP
+
 import MetaTrader5 as mt5 
 import time
 import pandas as pd
